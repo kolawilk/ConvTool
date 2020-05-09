@@ -181,6 +181,7 @@ The variables of this input are further implemented in the main section of the s
 ## References
 
 [1] Krüger, T.; Kusumaatmaja, H.; Kuzmin, A.; Shardt, O.; Silva, G. & Viggen, E. M.; The Lattice Boltzmann Method; Springer International Publishing, 2017
+
 [2] PALABOS project website: https://palabos.unige.ch
 
 

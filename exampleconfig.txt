@@ -1,0 +1,33 @@
+# Config-File for LBM Conversion Tool
+# Variable names are not permitted for changes
+#
+# Projektname
+project=WaterStd_Re1000_Acc
+# Fluid string:
+# For possible fluid strings see CoolProp Documentation:
+# http://www.coolprop.org/fluid_properties/PurePseudoPure.html#list-of-fluids
+fluid=Water
+# Physical Temperature (K):
+temperature=293.15
+# Physical pressure (Pa):
+pressure=101325
+# ONE of the following two options (Re or velocity) must be given
+# Reynolds Number (=-1 if not known):
+reynolds=1000
+# Velocity of fluid (m/s) (=-1 if not known):
+velocity=-1
+# Channel height (m):
+height=0.1
+# Channel length (m):
+length=2.0
+# Criteria for conversion
+# (1) Accuracy (Umax < 0.1)
+# (2) Stability (Umax < 0.4)
+criteria=1;
+# Choose tau
+# Recommended for start:
+# Accuracy: tau = 0.9
+# Stability: tau = 0.55
+tau=0.9
+# Output of calculated fluid properties
+output=1;

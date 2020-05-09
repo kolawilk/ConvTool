@@ -44,8 +44,8 @@ cd ../../
 g++ -L ./CoolProp/build/ -stdlib=libc++ -o ConvTool.o ConvTool.cpp -I ./CoolProp/include/ -I ./CoolProp/externals/fmtlib/ -I ./CoolProp/build/ -lCoolProp
 ```
 
-Note: Norma* lly 3 warnings were generated, these can be ignored because they have no influence on the conversion.
+**Note:** *Normally 3 warnings were generated, these can be ignored because they have no influence on the conversion.*
 
-* The ConvTool can now be executed via './ConvTool.o'.
+* The ConvTool can now be executed via `./ConvTool.o.
 
 ## Instruction for usage

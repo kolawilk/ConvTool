@@ -56,7 +56,7 @@ This conversion tool converts a setup of flow parameters into dimensionless latt
 
 The conversion is mainly based on the statements in "The Lattice Boltzmann Method" [1]. In the current version the conversion tool can be used only in the scope of 2D flows using the BGK operator.
 
-# Setup a config file
+### Setup a config file
 
 The flow parameters are set up in different config files. The tool is capable to convert multiple configurations located in one path. The path can be located anywhere on your file system. An example config file is part of this repository:
 
@@ -98,13 +98,13 @@ output=1;
 
 **Note:** *The output file name is based on the definition of the project string variable. So make sure to define a different project name for each config file, otherwise the output files will be overwritten by the conversion tool.*
 
-# Conversion with the ConvTool
+### Conversion with the ConvTool
 
 To perform the conversion you simply need to execute the ConvTool and paste the path where the config files are located. The ConvTool will generate a new directory in this config path `./converted/` with the output files for use in PALABOS.
 
 **Note:** *The ConvTool can help you to set up a whole set of different flow configurations. Nevertheless, a basic understanding of fluid dynamics and LBM is required. To get an understanding of choosing input parameters e.g.* `tau` *and check the output variables we recommend to read chapter 7 in [1].*
 
-# Simulation with PALABOS
+### Simulation with PALABOS
 
 PALABOS is included as submodule in this repository. For further information please read the PALABOS project website [2]. A sample simulation is also part of this repository. For your simulations the readconf() function needs to be added to your simulation code:
 

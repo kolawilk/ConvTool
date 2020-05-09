@@ -5,7 +5,9 @@ Developed at University of Applied Sciences Duesseldorf @ Software Lab, Winter T
 
 ## Authors
 **Lars Wilke** lars.wilke@study.hs-duesseldorf.de
+
 **Daniel Morton** daniel.morton@study.hs-duesseldorf.de
+
 **Tim Kramer** tim.kramer@hs-duesseldorf.de
 
 # Installation instructions

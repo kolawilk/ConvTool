@@ -4,9 +4,9 @@ Conversion of variables of a flow configuration into dimensionless lattice units
 Developed at University of Applied Sciences Duesseldorf @ Software Lab, Winter Term 2019 / 2020
 
 ## Authors
-Lars Wilke, lars.wilke@study.hs-duesseldorf.de
-Daniel Morton, daniel.morton@study.hs-duesseldorf.de
-Tim Kramer, tim.kramer@hs-duesseldorf.de
+**Lars Wilke** lars.wilke@study.hs-duesseldorf.de
+**Daniel Morton** daniel.morton@study.hs-duesseldorf.de
+**Tim Kramer** tim.kramer@hs-duesseldorf.de
 
 # Installation instructions
 * Clone this repository with submodules:
@@ -49,3 +49,7 @@ g++ -L ./CoolProp/build/ -stdlib=libc++ -o ConvTool.o ConvTool.cpp -I ./CoolProp
 * The ConvTool can now be executed via `./ConvTool.o`.
 
 ## Instruction for usage
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

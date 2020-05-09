@@ -1,3 +1,6 @@
 [submodule "CoolProp"]
 	path = CoolProp
 	url = https://github.com/CoolProp/CoolProp
+[submodule "PALABOS"]
+	path = PALABOS
+	url = https://gitlab.com/unigespc/palabos

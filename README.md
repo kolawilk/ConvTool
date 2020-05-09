@@ -10,7 +10,7 @@ Tim Kramer, tim.kramer@hs-duesseldorf.de
 
 ## Installation instructions
 * Clone this repository with submodules:
-'git clone --recursive https://github.com/kolawilk/ConvTool'
+´git clone --recursive https://github.com/kolawilk/ConvTool
 
 ### Build CoolProp
 See http://www.coolprop.org/coolprop/wrappers/StaticLibrary/index.html#static-library for further instructions.
